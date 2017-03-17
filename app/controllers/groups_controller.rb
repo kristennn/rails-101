@@ -92,5 +92,3 @@ def edit
     @group.destroy
     redirect_to groups_path, alert: "Group deleted"
   end
-
-end
